@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#toDo-ul {
+    list-style-type: disc;
+
+}
+
+#toDO-ul::marker {
+    color: rgb(59 130 246 )
+}
+
+  .deleteMe:hover {
+    animation: tilt-shaking 0.3s linear infinite;
+  }
+
+  @keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
